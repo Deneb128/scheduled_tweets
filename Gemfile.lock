@@ -260,7 +260,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   omniauth (~> 2.1)
-  omniauth-rails_csrf_protection (~> 1.0)
+  omniauth-rails_csrf_protection (~> 1.0.1)
   omniauth-twitter (~> 1.4)
   omniauth-twitter2 (~> 0.1.0)
   puma (~> 5.0)
