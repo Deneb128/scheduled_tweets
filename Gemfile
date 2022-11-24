@@ -79,3 +79,7 @@ gem "omniauth", "~> 2.1"
 gem "omniauth-twitter2", "~> 0.1.0"
 
 gem "twitter", "~> 7.0"
+
+gem "sidekiq", "~> 6.5.5"
+
+gem "redis", "~> 5.0"
