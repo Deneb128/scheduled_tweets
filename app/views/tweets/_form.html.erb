@@ -20,6 +20,6 @@
 
     <%= button_to "Schedule", form.object, method: :new, class: "btn btn-primary" %>
     <% if form.object.persisted? #if it's saved in the database or not%>
-        <%= button_to "Delete", form.object, method: :delete, form: {data: {turbo_confirm:'Are you sure?'}}, class: "btn btn-outline-danger" %>
+        <%= link_to "Delete", form.object, method: :delete, form: {data: {turbo_confirm:'Are you sure?'}}, class: "btn btn-outline-danger" %>
     <% end %>
 <% end %>
